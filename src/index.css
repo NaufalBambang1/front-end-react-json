@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+.container {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+table {
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+th {
+  background-color: rgb(20, 187, 20);
+  color: white;
+}
+table,
+tr,
+th,
+td {
+  padding: 1rem;
+  gap: 1rem;
+}
+.custom {
+  display: flex;
+  justify-content: end;
+  gap: 1rem;
+}
+.custom .btn-add {
+  width: auto;
+}
+
+.form-item {
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.form-item label {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.form-item input {
+  display: flex;
+  border-radius: 5px;
+  height: 2rem;
+  width: 14rem;
+}
+
+.btn-custom {
+  padding: 0.5rem;
+  width: 100%;
+}
+.btn-save {
+  padding: 0.5rem;
+  width: 100%;
+  background-color: blue;
+  color: white;
+  border-radius: 10px;
+}
+
+.select-item {
+  display: flex;
+  border-radius: 5px;
+  height: 2rem;
+  width: 14rem;
+}
