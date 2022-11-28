@@ -164,17 +164,6 @@
       "createBy": "abc",
       "createOn": "2022-04-12 09:23:21",
       "id": 13827
-    },
-    {
-      "productID": "2213123",
-      "productName": "saashima",
-      "amount": "232",
-      "customerName": "bagong",
-      "status": 1,
-      "transactionDate": "2222678999",
-      "createBy": "sgda",
-      "createOn": "23231231",
-      "id": 13828
     }
   ],
   "status": [

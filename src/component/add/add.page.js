@@ -47,10 +47,7 @@ const AddPage = () => {
         </div>
         <div className="form-item">
           <label>Status: </label>
-          <select className="select-item" onChange={(e) => setStatus(Number(e.target.value))}>
-            <option value={0}>Success</option>
-            <option value={1}>Failed</option>
-          </select>
+          <input onChange={(e) => setStatus(Number(e.target.value))}></input>
         </div>
         <div className="form-item">
           <label>transaction Date: </label>
